@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="?attr/action_refresh"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/refresh"/>
+    <item
+        android:id="@+id/action_all_updates"
+        android:title="@string/all_updates"/>
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/settings"/>
+
+</menu>

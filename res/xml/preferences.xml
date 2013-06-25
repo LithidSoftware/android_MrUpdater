@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="key_cat_settings"
+        android:title="@string/settings" >
+        <CheckBoxPreference
+            android:key="key_check_boot"
+            android:summary="@string/pref_check_boot_summary"
+            android:title="@string/pref_check_boot_title" />
+        <CheckBoxPreference
+            android:key="key_check_interval"
+            android:summary="@string/pref_check_interval_summary"
+            android:title="@string/pref_check_interval_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="key_cat_themes"
+        android:title="@string/themes" >
+        <ListPreference
+            android:defaultValue="Dark"
+            android:dialogTitle="@string/pref_choose_theme_title"
+            android:entries="@array/themes"
+            android:entryValues="@array/themes"
+            android:key="key_choose_theme"
+            android:summary="@string/pref_choose_theme_summary"
+            android:title="@string/pref_choose_theme_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="key_cat_extras"
+        android:title="@string/extras" >
+        <Preference
+            android:key="key_clear_downloaded"
+            android:summary="@string/pref_clear_downloaded_summary"
+            android:title="@string/pref_clear_downloaded_title" />
+
+        <CheckBoxPreference
+            android:key="key_allow_nonowners"
+            android:summary="@string/pref_allow_nonowner_summary"
+            android:title="@string/pref_allow_nonowner_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

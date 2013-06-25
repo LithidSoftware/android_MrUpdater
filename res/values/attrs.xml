@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<declare-styleable name="customAttrs">
+    <attr name="action_refresh" format="reference" />
+    <attr name="action_changelog" format="reference" />
+    <attr name="action_download" format="reference" />
+    <attr name="action_apply" format="reference" />
+    <attr name="action_stop" format="reference" />
+    <attr name="color_beta" format="reference" />
+    <attr name="color_alpha" format="reference" />
+    <attr name="main_backdrop" format="reference" />
+    <attr name="title_strip" format="reference" />
+</declare-styleable>
+</resources>

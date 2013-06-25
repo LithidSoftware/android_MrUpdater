@@ -1,0 +1,47 @@
+<resources>
+
+    <style name="Dark" parent="android:Theme.Holo">
+        <item name="action_refresh">@drawable/ic_action_refresh_dark</item>
+        <item name="action_changelog">@drawable/ic_action_changelog_dark</item>
+        <item name="action_download">@drawable/ic_action_download_dark</item>
+        <item name="action_apply">@drawable/ic_action_apply_dark</item>
+        <item name="action_stop">@drawable/ic_action_stop_dark</item>
+        <item name="color_beta">@color/beta_dark</item>
+        <item name="color_alpha">@color/alpha_dark</item>
+        <item name="title_strip">@color/strip_dark</item>
+        <item name="main_backdrop">@drawable/ic_backdrop_dark</item>
+    </style>
+
+    <style name="Light" parent="android:Theme.Holo.Light">
+        <item name="action_refresh">@drawable/ic_action_refresh_light</item>
+        <item name="action_changelog">@drawable/ic_action_changelog_light</item>
+        <item name="action_download">@drawable/ic_action_download_light</item>
+        <item name="action_apply">@drawable/ic_action_apply_light</item>
+        <item name="action_stop">@drawable/ic_action_stop_light</item>
+        <item name="color_beta">@color/beta_light</item>
+        <item name="color_alpha">@color/alpha_light</item>
+        <item name="title_strip">@color/strip_light</item>
+        <item name="main_backdrop">@drawable/ic_backdrop_light</item>
+    </style>
+    
+    <style name="LightDarkActionBar" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="action_refresh">@drawable/ic_action_refresh_dark</item>
+        <item name="action_changelog">@drawable/ic_action_changelog_light</item>
+        <item name="action_download">@drawable/ic_action_download_light</item>
+        <item name="action_apply">@drawable/ic_action_apply_light</item>
+        <item name="action_stop">@drawable/ic_action_stop_light</item>
+        <item name="main_backdrop">@drawable/ic_backdrop_light</item>
+        <item name="color_beta">@color/beta_light</item>
+        <item name="color_alpha">@color/alpha_light</item>
+        <item name="title_strip">@color/strip_light</item>
+    </style>
+    
+    <style 
+        name="DarkDialog" parent="android:Theme.Holo.Dialog">
+    </style>
+    
+    <style 
+        name="LightDialog" parent="android:Theme.Holo.Light.Dialog">
+    </style>
+
+</resources>

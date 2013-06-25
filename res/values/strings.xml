@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MrUpdater</string>
+    <string name="settings">Settings</string>
+    <string name="refresh">Refresh</string>
+    <string name="updates">Updates</string>
+    <string name="about">About</string>
+    <string name="desc">description</string>
+    <string name="all_updates">All updates</string>
+    <string name="about_desc">This is a simple description for the about application fragment, don\'t worry this description will not stay. Well it will stay but will be replaced with something more meaningful. Thanks.</string>
+    <string name="no_updates">No updates available</string>
+    <string name="pref_updater_url_title">Updater url</string>
+    <string name="pref_updater_url_message">No need to use http:// just domain and path.\nExample: mrlithid.com/mrupdater</string>
+    <string name="download">Download</string>
+    <string name="changelog">Changelog</string>
+    <string name="apply">Apply</string>
+    <string name="stop">Stop</string>
+    <string name="yes_updates_notice">Notice: Please be aware of the risks you are taking with your phone.</string>
+    <string name="donate">Donate</string>
+    <string name="about_author">Author:\nJeremie Long  (lithid)</string>
+    <string name="about_version">Version:\n1.0</string>
+    <string name="info">Info</string>
+    <string name="about_notice">MrUpdater was created to help developers get updates out faster, quicker, and more streamlined. This tool must have root to perform certain task. There will never be ads. Some features may not be available in the free version. Please enjoy. Report any issues.</string>
+    <string name="twitter">Twitter</string>
+    <string name="googleplus">Google+</string>
+    <string name="gmail">Gmail</string>   
+    <string name="toggle">Toggle</string>
+    <string name="toast_notification_error">Wallpaper was downloaded but returned a bad value. Try again.</string>
+    <string name="toast_download_unsuccessful">Wallpaper had issues downloading. Try again.</string>
+    <string name="downloaded_removed">Downloaded files have been removed, and database has been updated.</string>
+    <string name="loading">Loading changelog data</string>
+    <string name="confirm_apply_message">Are you sure you want to apply this update?\nThis will reboot your phone if you press YES</string>
+    
+    <!-- Preferences -->
+    <string name="themes">Themes</string>
+    <string name="pref_choose_theme_title">Choose theme</string>
+    <string name="pref_choose_theme_summary">Current: %s</string>
+    <string name="extras">Extras</string>
+    <string name="pref_clear_downloaded_title">Delete downloads</string>
+    <string name="pref_clear_downloaded_summary">Clear any downloads in the downloads folder</string>
+    <string name="pref_allow_nonowner_title">Allow non-owner</string>
+    <string name="pref_allow_nonowner_summary">For android 4.2+ allow non owner users access to this app</string>
+    <string name="pref_check_boot_title">Check updates on boot</string>
+    <string name="pref_check_boot_summary">Check for updates after the phone boot up from a reboot or power on</string>
+    <string name="pref_check_interval_title">Check updates twice daily</string>
+    <string name="pref_check_interval_summary">Check for updates at specified intervals (0200, 1400 hours)</string>
+
+    <!-- Abreviations for months -->
+    <string name="abr_jan">JAN</string>
+    <string name="abr_feb">FEB</string>
+    <string name="abr_mar">MAR</string>
+    <string name="abr_apr">APR</string>
+    <string name="abr_may">MAY</string>
+    <string name="abr_jun">JUN</string>
+    <string name="abr_jul">JUL</string>
+    <string name="abr_aug">AUG</string>
+    <string name="abr_sep">SEP</string>
+    <string name="abr_oct">OCT</string>
+    <string name="abr_nov">NOV</string>
+    <string name="abr_dec">DEC</string>
+
+</resources>

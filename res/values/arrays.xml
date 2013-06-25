@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="abr_months">
+        <item>@string/abr_jan</item>
+        <item>@string/abr_feb</item>
+        <item>@string/abr_mar</item>
+        <item>@string/abr_apr</item>
+        <item>@string/abr_may</item>
+        <item>@string/abr_jun</item>
+        <item>@string/abr_jul</item>
+        <item>@string/abr_aug</item>
+        <item>@string/abr_sep</item>
+        <item>@string/abr_oct</item>
+        <item>@string/abr_nov</item>
+        <item>@string/abr_dec</item>
+    </string-array>
+    
+    <string-array
+        name="themes">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>LightDarkActionBar</item>
+    </string-array>
+</resources>

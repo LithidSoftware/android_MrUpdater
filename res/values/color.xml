@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <color name="jb_blue">#33b5e5</color>
+ <color name="jb_blue_trans">#9933b5e5</color>
+ <color name="dark_gray">#555</color>
+ <color name="alpha_light">#99FF0000</color>
+ <color name="alpha_dark">#99FF0000</color>
+ <color name="beta_dark">@color/jb_blue_trans</color>
+ <color name="beta_light">@color/jb_blue_trans</color>
+ <color name="strip_dark">@color/dark_gray</color>
+ <color name="strip_light">@color/jb_blue</color>
+</resources>

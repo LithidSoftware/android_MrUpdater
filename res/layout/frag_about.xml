@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout_item"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+    
+    <LinearLayout
+        android:id="@+id/top_btn_updates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/yes_updates_rom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/about_author"/>
+
+    <TextView
+        android:id="@+id/yes_updates_version"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/about_version"/>
+    
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:showDividers="middle" >
+
+        <Button
+            android:id="@+id/btn_twitter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="@string/twitter" />
+
+        <Button
+            android:id="@+id/btn_googleplus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="@string/googleplus" />
+        
+        <Button
+            android:id="@+id/btn_gmail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="@string/gmail" />
+        
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:text="@string/about_notice" />
+    
+    </LinearLayout>
+        
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:id="@+id/bottom_btn_updates"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:showDividers="middle" >
+
+        <Button
+            android:id="@+id/btn_info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="@string/info" />
+
+        <Button
+            android:id="@+id/btn_donate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="@string/donate" />
+        
+    </LinearLayout>
+
+</RelativeLayout>
